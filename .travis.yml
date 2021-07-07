@@ -23,5 +23,6 @@ deploy:
   api_key: $HEROKU_API_KEY
   edge: true 
   app: devopslab-orleon
+  strategy: api
   on:
       branch: main
